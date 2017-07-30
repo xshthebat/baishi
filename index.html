@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <script src="js/fullpage.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/tianqi.js"></script>
+    <script src="js/fanyi.js"></script>
+    <script src="js/shenfeng.js"></script>
+</head>
+<body style="overflow:scroll;overflow-y:hidden;overflow-x:hidden">
+<div id="container">
+    <div class="nav" id="navi">
+        <ul id="list">
+            <li class="lists"><a href="#containt2" class="alists">天气预报</a></li>
+            <li class="lists"><a href="#containt3" class="alists">翻译</a></li>
+            <li class="lists"><a href="#containt4" class="alists">身份证号</a></li>
+        </ul>
+        <p id="xiyou"><a href="#containt1">xiyou3g</a></p>
+    </div>
+    <div id="sections">
+        <div class="section" id="containt1">
+           <div id="content">
+               <ul id="tab_nav">
+                   <li>
+                   </li>
+                   <li>
+                   </li>
+                   <li>
+                   </li>
+                   <li>
+                   </li>
+               </ul>
+               <div class="content_item" id="content1">
+               </div>
+               <div class="content_item" id="content2">
+               </div>
+               <div class="content_item" id="content3">
+               </div>
+               <div class="content_item" id="content4">
+               </div>
+           </div>
+        </div>
+        <div class="section" id="containt2">
+            <div class="tianqi">
+                <form id="form1">
+                    <input id="input1" type="text" name="chengshi"></input>
+                    <div id="submit1"><div></div><p>提交</p></div>
+                </form>
+            </div>
+        </div>
+        <div class="section" id="containt3">
+            <div class="fanyi">
+                <form id="form2">
+                    <textarea id="input2" type="text" name="juzi"></textarea>
+                    <div id="submit2"><div></div><p>提交</p></div>
+                </form>
+                <div id="fromto">
+                <select id="selects">
+                    <option value ="auto" selected="selected">检测语言</option>
+                    <option value ="en">英语</option>
+                    <option value="zh-cn">中文</option>
+                    <option value="jp">日语</option>
+                </select>
+                <p>to</p>
+                <select id="selectto">
+                    <option value ="en">英语</option>
+                    <option value="zh-cn">中文</option>
+                    <option value="jp">日语</option>
+                </select>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="containt4">
+            <div class="shenfeng">
+                <form id="form3">
+                    <input id="input3" type="text" name="number"  maxlength="18"></input>
+                    <div id="submit3"><div></div><p>提交</p></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <ul id="pages">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+</body>
+<script src="js/tab.js"></script>
+<script src="js/js.js"></script>
+</html>

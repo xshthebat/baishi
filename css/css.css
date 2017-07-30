@@ -1,0 +1,51 @@
+
+			html,body{
+				height: 100%;
+			}
+			#container,#sections,.section{
+				height: 100%;
+				font: 50px "Microsoft Yahei";
+			    color: #767676;
+			}
+			.section{
+				position: relative;
+			}
+			#sections{
+				position: relative;
+				top: 0;
+			}
+			.left{
+				float: left;
+				width: 25%;
+			}
+			#pages{
+				position: fixed;
+			}
+			#pages >li{
+				list-style: none;
+				 border:5px;
+				 border-style: solid; 
+				 border-color:white;
+                 border-radius:5px;
+                 cursor: pointer;
+			}
+			.verticals{
+                margin: 10px 0;
+			}
+			.horizontal{
+				left:50%;
+				margin-left: -100px;
+				bottom: 10%;
+			}
+			.horizontals{
+				float: left;
+				margin: 0 15px;
+			}
+			.vertical{
+				right: 10%;
+				top:50%;
+				margin-top: -45px;
+			}
+			#pages .active{
+				border-color: darkgrey;
+			}

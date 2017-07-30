@@ -1,0 +1,498 @@
+#body,p{
+    font-family:Arial;
+}
+a{
+    text-decoration: none;
+    text-decoration: none;
+}
+#containt1{
+    background-color: antiquewhite;
+}
+#containt2{
+    background-image: url("../img/section.jpg");
+}
+#containt3{
+    background-image: url("../img/section3.jpg");
+}
+#containt4{
+    background: url("../img/section4.jpg");
+}
+.section{
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#content{
+    min-width: 1500px;
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+#content1{
+    background: url("../img/section5.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#content2{
+    background: url("../img/section6.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#content3{
+    background: url("../img/section7.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#content4{
+    background: url("../img/section8.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#tab_nav{
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 50%;
+    margin-left: -156px;
+    opacity: 0.8;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    min-width: 1500px;
+    height: 70px;
+    line-height: 70px;
+    background-color: aquamarine;
+    z-index: 1;
+    opacity: 0.5;
+}
+#xiyou{
+    color: cornflowerblue;
+    margin-left:3%;
+    opacity: 0.8;
+    cursor: pointer;
+    display: inline-block;
+}
+#xiyou:hover{
+    color: #767676;
+    opacity: 1;
+}
+#list{
+    float: right;
+    width: 40%;
+    min-width: 800px;
+    display: inline-block;
+    height: 70px;
+}
+.lists{
+    float: left;
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+    height: 70px;
+}
+.alists:hover{
+    color: #767676;
+}
+.alists{
+    font-size: 30px;
+    color: rgba(76, 111, 198, 0.88);
+    vertical-align: super;
+}
+.listsh1{
+    line-height: 100px;
+    margin-left: 90px;
+}
+.font1{
+    font-size: 50px;
+    color: azure;
+}
+.font1:hover{
+    color: crimson;
+}
+.inline1{
+    line-height: 100px;
+}
+.color1{
+    background-color: aqua;
+    opacity: 0.8;
+}
+.color2{
+    background-color: floralwhite;
+    opacity: 0.9;
+}
+.fontcolor2{
+    color: cadetblue;
+}
+.fontcolor2:hover{
+    color: cyan;
+}
+.color3{
+    background-color: blueviolet;
+    opacity: 0.6;
+}
+.fontcolor3{
+    color: chartreuse;
+}
+.fontcolor3:hover{
+    color: coral;
+}
+.tianqi{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top:30%;
+    left:10%;
+}
+.fanyi{
+    width: 1078px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+.shenfeng{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.fanyiback{
+    width: 70px;
+    height: 30px;
+    background-color: #ffb34f;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    color: cadetblue;
+    opacity: 0.8;
+}
+.fanyiback:hover{
+    background-color: cyan;
+}
+#form2{
+    display: inline-block;
+    height: 300px;
+    position: relative;
+}
+.cityname{
+    font-size: 50px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+}
+.now{
+    width:300px;
+    float: right;
+    height: 80px;
+    background-color: blue;
+    overflow: hidden;
+}
+.nowli{
+    width: 140px;
+    height: 25px;
+    background-color: cyan;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 25px;
+    float: left;
+    margin: 1px 5px;
+    color: #767676;
+}
+.nowtime{
+   height: 20px;
+    width: 200px;
+    line-height: 20px;
+    font-size: 20px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+.nowday{
+    width:100px;
+    height: 60px;
+    background-color: #ffb34f;
+    float: left;
+}
+.weekday{
+    width:100px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #767676;
+}
+.weather{
+    width:100px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #767676;
+    text-align: center;
+}
+.dalay{
+    width: 500px;
+    height: 190px;
+    background-color: aliceblue;
+    margin-top: 80px;
+}
+.weeks{
+    height: 180px;
+    width: 65px;
+    background-color: #ffb34f;
+    display: inline-block;
+    float: left;
+    margin-left: 6px;
+}
+.daytime{
+    width:65px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #767676;
+    text-align: center;
+}
+.nightname{
+    width:65px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color:#ffb34f;
+    text-align: center;
+}
+.weekend{
+    width:65px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #767676;
+    text-align: center;
+}
+.day{
+    width: 65px;
+    height: 70px;
+    background-color: aliceblue;
+}
+.night{
+    width: 65px;
+    height: 70px;
+    background-color: darkcyan;
+    color: #ffb34f;
+}
+.dayname{
+    width: 65px;
+    height: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+.daywind{
+    width: 65px;
+    height: 20px;
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+}
+.nightwind{
+    width: 65px;
+    height: 20px;
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+}
+.dayweather{
+    width: 65px;
+    height: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+.nightweather{
+    width: 65px;
+    height: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+.daytemp{
+    width: 65px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+}
+.nighttemp{
+    width: 65px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+}
+#form1{
+    height: 30px;
+    line-height: 30px;
+}
+#input2{
+    width: 500px;
+    height: 300px;
+    font-size: 40px;
+    color: #445b59;
+}
+#submit2{
+    position: absolute;
+    top: 42%;
+    left: 108%;
+    font-size: 30px;
+    line-height: 30px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: burlywood;
+    cursor: pointer;
+}
+#submit2:hover{
+    box-shadow: 3px 1px 4px 1px midnightblue;
+}
+#submit2>div{
+    position: absolute;
+    height: 30px;
+    background-color: #0b1605;
+    opacity: 0.3;
+}
+.nofind{
+    height: 100px;
+    width: 500px;
+    line-height: 100px;
+    color: #767676;
+}
+.sonbox{
+    width: 500px;
+    background-color: white;
+    opacity: 0.9;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.error{
+    position: absolute;
+    width: 135px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 15px;
+    color: red;
+    left: 100%;
+    top: 3%;
+}
+.boxback{
+    width: 70px;
+    height: 30px;
+    background-color: #ffb34f;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    color: cadetblue;
+
+}
+.boxback:hover{
+    background-color: cyan;
+}
+#input1{
+    opacity: 0.5;
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 30px;
+    border: 0px;
+    float: left;
+}
+#input3{
+    opacity: 0.5;
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 30px;
+    border: 0px;
+    float: left;
+}
+#form3{
+     height: 30px;
+     line-height: 30px;
+ }
+#submit1{
+    width: 100px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    background-color: cyan;
+    position: relative;
+}
+#submit1>div{
+    position: absolute;
+  height: 30px;
+    background-color: coral;
+    opacity: 0.3;
+}
+#submit1:hover{
+   box-shadow: 5px 5px 5px 5px;
+}
+#submit1>p{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(80, 114, 255, 0.73);
+}
+#submit3{
+    width: 100px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    background-color: rgba(0, 8, 255, 0.41);
+    position: relative;
+}
+.sonbox1{
+    width: 400px;
+    background-color: #ffb34f;
+    float: right;
+    opacity: 0.6;
+}
+#submit3>div{
+    position: absolute;
+    height: 30px;
+    background-color: coral;
+    opacity: 0.3;
+}
+#submit3:hover{
+    box-shadow: 5px 5px 5px 5px;
+}
+#submit3>p{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(29, 34, 54, 0.73);
+}
+#fromto{
+    display: inline-block;
+    position: absolute;
+ }
+#fromto>p{
+    display: inline-block;
+    font-size: 20px;
+}
+#fromto>select{
+    height: 30px;
+}
+.fanyiresult{
+    font-size: 20px;
+    line-height: 20px;
+    color: #767676;
+}
